@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 import this
-print(this)
+str = "{}".format(this)
+str = str[:-50]
+print(str)
