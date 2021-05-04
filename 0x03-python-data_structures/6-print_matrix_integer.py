@@ -4,7 +4,7 @@ def print_matrix_integer(matrix=[[]]):
         length = len(i)
         for j in range(length):
             if j == length - 1:
-                print("{}".format(i[j]), end="")
+                print("{:d}".format(i[j]), end="")
             else:
-                print("{} ".format(i[j]), end="")
+                print("{:d} ".format(i[j]), end="")
         print()
