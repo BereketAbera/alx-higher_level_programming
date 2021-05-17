@@ -7,6 +7,8 @@ def safe_print_list(my_list=[], x=0):
             print("{}".format(val), end="")
         except IndexError:
             break
+        except:
+            pass
         else:
             count += 1
     if count > 0:
