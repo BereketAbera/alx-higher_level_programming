@@ -4,9 +4,7 @@ def safe_print_list(my_list=[], x=0):
 
     for val in my_list[:x]:
         try:
-            print("{:d}".format(val), end="")
-        except ValueError:
-            pass
+            print("{}".format(val), end="")
         except IndexError:
             break
         else:
