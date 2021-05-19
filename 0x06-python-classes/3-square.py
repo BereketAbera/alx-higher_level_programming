@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""A Square module with public method"""
+
+
 class Square:
     """A Square class with public method"""
 

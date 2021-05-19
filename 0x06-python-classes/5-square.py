@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""A Square module with print method"""
+
+
 class Square:
     """A Square class with print method"""
 

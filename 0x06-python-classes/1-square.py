@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""A simple square module with size attribute"""
+
+
 class Square:
     """A simple square class with size attribute"""
 

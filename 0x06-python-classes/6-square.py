@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""A Square module with position attribute"""
+
+
 class Square:
     """A Square class with position attribute"""
 
