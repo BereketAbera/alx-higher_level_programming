@@ -74,6 +74,8 @@ class Rectangle:
         """return user friendly string"""
 
         rct_str = ''
+        if self.height == 0 or self.width == 0:
+            return rct_str
         for j in range(self.height):
             for i in range(self.width):
                 rct_str += str(self.print_symbol)
