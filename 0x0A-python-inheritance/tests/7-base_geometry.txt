@@ -1,0 +1,29 @@
+# 7-base_gemetry.txt
+
+``test_base_geometry()`` check base geometry value
+
+::
+
+Tests
+
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("name", "John")
+    Traceback (most recent call last):
+    TypeError: name must be an integer
+
+    >>> bg.integer_validator("firstname", "John")
+    Traceback (most recent call last):
+    TypeError: firstname must be an integer
+
+    >>> bg.integer_validator("age", -50)
+    Traceback (most recent call last):
+    ValueError: age must be greater than 0
+
+    >>> bg.integer_validator("height", -50)
+    Traceback (most recent call last):
+    ValueError: height must be greater than 0
+
+    >>> bg.integer_validator("atrr", 0)
+    Traceback (most recent call last):
+    ValueError: atrr must be greater than 0
